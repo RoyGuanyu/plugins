@@ -16,7 +16,11 @@ const bool kAutoConsume = true;
 
 const String _kConsumableId = 'consumable';
 const List<String> _kProductIds = <String>[
-  _kConsumableId,
+  'android.test.purchased',
+  'android.test.canceled',
+  'android.test.item_unavailable',
+  'gas',
+  'premium_car',
   'upgrade',
   'subscription'
 ];
